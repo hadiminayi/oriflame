@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.products{
+    width: 80%;
+    height: 400px;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 100px auto;
+    display: grid;
+    grid-template-columns:40% 20% 20% 20%;
+    grid-template-rows: 350px 200px;
+    gap: 10px;
+    justify-content: center;
+}
+.products .product:nth-of-type(1) {
+    background-image: url("../img/contentImage.jfif");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items:end;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.products .product:nth-of-type(1) h3{
+    width: 148px;
+    height: 45px;
+    background-color: transparent;
+    border-radius: 20px;
+    line-height: 45px;
+    text-align: center;
+    transition: 300ms;
+    text-transform: capitalize;
+    color: whitesmoke;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+.products .product:nth-of-type(1) h3:hover{
+    background-color: #ef4d9d;
+    color: rgb(66, 65, 65);
+}
+.products .product:nth-of-type(2){
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    position: relative;
+}
+.products .product:nth-of-type(2) .text{
+    position: absolute;
+    top: 240px;
+}
+.products .product:nth-of-type(2) .text .colorw{
+    display: flex;
+    gap: 3px;
+    margin: 5px auto;
+}
+.products .product:nth-of-type(2) .text .colorw .color:nth-of-type(1){
+    background-color: burlywood;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.products .product:nth-of-type(2) .text .colorw .color:nth-of-type(2){
+    background-color: burlywood;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.products .product:nth-of-type(2) .text h2{
+    font-size: 15px;
+    text-transform: capitalize;
+    color: rgb(63, 62, 62);
+}
+.products .product:nth-of-type(2) .text h1{
+    font-size: 15px;
+    color: rgb(49, 48, 48);
+    text-transform: capitalize;
+
+}
+.products .product:nth-of-type(2) .text .number h6:nth-of-type(2){
+    position: absolute;
+    right: 140px;
+    top: 60px;
+    font-size:15px;
+    color: rgb(49, 48, 48);;
+}
+.products .product:nth-of-type(2) .text .number h6:nth-of-type(1){
+    position: absolute;
+    top: 60px;
+    font-size: 15px;
+    color: blue;
+}
+.products .product:nth-of-type(2) img{
+    width: 230px;
+    border-radius: 10px;
+    transition: 300ms;
+    cursor: pointer;
+}
+.products .product:nth-of-type(2) img:hover{
+    width: 100%;
+}
+.products .product:nth-of-type(3){
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    position: relative;
+}
+.products .product:nth-of-type(3) img{
+    width: 230px;
+    border-radius: 10px;
+    transition: 300ms;
+    cursor: pointer;
+}
+.products .product:nth-of-type(3) img:hover{
+    width: 100%;
+}
+.products .product:nth-of-type(3) .text{
+    position: absolute;
+    top: 240px;
+}
+.products .product:nth-of-type(3) .text h2{
+    font-size: 15px;
+    text-transform: capitalize;
+    color: rgb(63, 62, 62);
+}
+.products .product:nth-of-type(3) .text h1{
+    font-size: 15px;
+    color: rgb(49, 48, 48);
+    text-transform: capitalize;
+
+}
+.products .product:nth-of-type(3) .text .number h6:nth-of-type(2){
+    position: absolute;
+    right: 160px;
+    top: 60px;
+    font-size:15px;
+    color: rgb(49, 48, 48);
+}
+.products .product:nth-of-type(3) .text .number h6:nth-of-type(1){
+    position: absolute;
+    top: 60px;
+    font-size: 15px;
+    color: blue;
+}
+.products .product:nth-of-type(4){
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    position: relative;
+}
+.products .product:nth-of-type(4) img{
+    width: 230px;
+    border-radius: 10px;
+    transition: 300ms;
+    cursor: pointer;
+}
+.products .product:nth-of-type(4) img:hover{
+    width: 100%;
+}
+.products .product:nth-of-type(4) .text{
+    position: absolute;
+    top: 240px;
+}
+.products .product:nth-of-type(4) .text h2{
+    font-size: 15px;
+    text-transform: capitalize;
+    color: rgb(63, 62, 62);
+    text-align: left;
+}
+.products .product:nth-of-type(4) .text h1{
+    font-size: 15px;
+    color: rgb(49, 48, 48);
+    text-transform: capitalize;
+    text-align: left;
+}
+.products .product:nth-of-type(4) .text .number h6:nth-of-type(1){
+    position: absolute;
+    top: 40px;
+    font-size: 15px;
+    color: blue;
+    text-align: left;
+}
